@@ -29,10 +29,42 @@ export default function Home() {
         </nav>
       </header>
       <main>
-
+        <div className="hero landing-section">
+          <h2>Watch all of your queer media, in one place</h2>
+          <button>Sign up for Free</button>
+        </div>
+        <div className="services-landing landing-section">
+          <h2>Services</h2>
+          <h3>Films</h3>
+          <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
+          <h4>Feature Films</h4>
+          <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
+          <h4>Short Films</h4>
+          <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+          <h3>Television</h3>
+          <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+          <h3>Animation</h3>
+          <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</p>
+          <h3>Video Games</h3>
+          <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+          <h3>Audio</h3>
+          <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+        </div>
+        <div className="about-landing landing-section">
+          <h2>About</h2>
+          <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+        </div>
+        <div className="subscribe-landing landing-section">
+          <form>
+            <h2>Subscribe to Newsletter</h2>
+            <input type="text"/>
+            <input type="email"/>
+          </form>
+        </div>
       </main>
 
       <footer>
+        
       </footer>
 
       <style jsx>{`
@@ -68,7 +100,7 @@ export default function Home() {
         }
         
         .logo{
-          font-weight: 600;
+          font-weight: 700;
           font-size: 1.7rem;
           letter-spacing: 1px;
           padding: 2% 7%;
@@ -96,7 +128,7 @@ export default function Home() {
             background: linear-gradient(90deg, rgba(255,139,139,1) 0%, rgba(252,176,137,1) 10%, rgba(255,235,130,1) 20%, rgba(130,255,131,1) 30%, rgba(123,250,255,1) 40%, rgba(138,218,255,1) 50%, rgba(155,200,255,1) 60%, rgba(152,181,255,1) 70%, rgba(214,165,255,1) 80%, rgba(251,163,255,1) 90%, rgba(226,160,255,1) 100%);
           }
           nav {
-            justify-content: space-around;
+            justify-content: space-evenly;
             padding: 3% 2%;
             // background-color: #ffe4ef;
           }
@@ -126,6 +158,9 @@ export default function Home() {
         }
         .purple {
           color: purple;
+        }
+        .landing-section {
+          padding: 5%;
         }
       `}</style>
     </div>
