@@ -160,7 +160,7 @@ export default function Home() {
           color: purple;
         }
         .landing-section {
-          padding: 3%;
+          padding: 2%;
         }
       `}</style>
     </div>
