@@ -1,9 +1,11 @@
-
+import Head from 'next/head'
 const main = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <Head>
+                <title>Video Games</title>
+            </Head>
+        </>
     )
 }
 

@@ -4,11 +4,10 @@ const main = () => {
     return (
         <>
             <Head>
-                <title>Short Films</title>
+                <title>Music</title>
             </Head>
         </>
     )
 }
 
 export default main
-
